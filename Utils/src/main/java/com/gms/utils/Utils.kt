@@ -100,6 +100,10 @@ fun Activity.playSoundError(){
     mPlayer2.start()
 }
 
+fun Boolean.check() : Boolean{
+    return true
+}
+
 fun Activity.getDeviceId(): String {
     val deviceId: String
     deviceId = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
